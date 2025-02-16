@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { OfficialgovComponent } from './shared/officialgov/officialgov.component';
 import { NavComponent } from './shared/nav/nav.component';
+import { TermsComponent } from './refs/terms/terms.component';
+import { PrivacyComponent } from './refs/privacy/privacy.component';
+import { CookiesComponent } from './refs/cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { NavComponent } from './shared/nav/nav.component';
     HomeComponent,
     FooterComponent,
     OfficialgovComponent,
-    NavComponent
+    NavComponent,
+    TermsComponent,
+    PrivacyComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
